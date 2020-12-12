@@ -86,6 +86,7 @@ $(document).ready(function () {
 
             var planInput = $("<textarea>");
             planInput.attr({ "class": "text" });
+            console.log(notes);
             planInput.val(notes);
 
             if (currentHour < hourMil) {
@@ -111,7 +112,7 @@ $(document).ready(function () {
             event.preventDefault();
             var hour = $(this).parent().find(".hour").text().split(":")[0];
             var notes = $(this).parent().find("textarea").val();
-            localStorage.setItem(hour, JSON.stringify(notes));
+            localStorage.setItem(hour, notes);
 
 
         })
