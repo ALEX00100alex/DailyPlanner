@@ -37,7 +37,7 @@ Here is a screenshot of the Planner:
 ![Planner -1](https://user-images.githubusercontent.com/53154900/101970081-15885700-3bdd-11eb-873c-0c778e54a71c.PNG)
 
 Here is a screenshot of the Planner displaying the time-block functionality:
-![Planner -1](https://user-images.githubusercontent.com/53154900/101970121-65ffb480-3bdd-11eb-921b-a3f69d4d0df6.PNG)
+![Planner-2](https://user-images.githubusercontent.com/53154900/101970228-03f37f00-3bde-11eb-89ab-a5d970df82e9.PNG)
 
 
 ## Contribute
