@@ -86,7 +86,6 @@ $(document).ready(function () {
 
             var planInput = $("<textarea>");
             planInput.attr({ "class": "text" });
-            console.log(notes);
             planInput.val(notes);
 
             if (currentHour < hourMil) {
