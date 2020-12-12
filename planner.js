@@ -106,18 +106,17 @@ $(document).ready(function () {
             saveButton.append(buttonIcon);
             makeRow.append(timeField, planBody, saveButton);
         }
-          
-        $(".saveBtn").on("click", function(event) {
+
+        $(".saveBtn").on("click", function (event) {
             event.preventDefault();
-            var hour = $(this).parent().find(".hour").text().split(":")[0]; 
+            var hour = $(this).parent().find(".hour").text().split(":")[0];
             var notes = $(this).parent().find("textarea").val();
             localStorage.setItem(hour, JSON.stringify(notes));
 
-           
 
-})
+        })
     }
     createPlanner();
 
-  
+
 })
